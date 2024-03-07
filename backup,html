@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #007bff; 
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Section styles */
+section {
+    padding: 20px;
+    /* border-bottom: 1px solid #ccc; */
+}
+
+.itrust-banner {
+    background-color: #f2f2f2;
+    display: flex-start;
+   
+    /* align-items: center; */
+}
+
+.user-details {
+    background-color: #fff;
+    display: block-flex;
+    align-items: center;
+}
+
+.notice {
+    background-color: #f9f9f9;
+}
+
+/* Image styles */
+section img {
+    max-width: 30%;
+    height: auto;
+}
+
+/* Social icons styles */
+#social-icons {
+    display: inline;
+}
+
+#social-icons a {
+    display: inline;
+}
+
+#social-icons a img {
+    width: 30px; /* Reduce icon size */
+    height: auto;
+}
+#contacts{
+    display: block;
+    
+}
+#contacts a{
+    display: block;
+}
+#contacts{
+    width: 30px; /* Reduce icon size */
+    height: auto;
+}
+
+/* User details styles */
+#user-details div {
+    margin-left: 20px;
+    
+}
+.container{
+    display: block;
+    align-items: center;
+}
+
+</style>
+</head>
+<body>
+<section class=" container" >
+<div class=" itrust-banner">
+    <div id="gif">
+        <img src="itrustbackside.gif" alt="itrust">
+    </div>
+    <div id="social-icons">
+        <a href="http://"><img src="fb.png" alt=""></a>
+        <a href="http://"><img src="ln.png" alt=""></a>
+        <a href="http://"><img src="x.png" alt=""></a>
+        <a href="http://"><img src="tik.png" alt=""></a>
+        <a href="http://"><img src="ins.png" alt=""></a>
+        <a href="http://"><img src="you.png" alt=""></a>
+        <a href="http://"><img src="wa.png" alt=""></a>
+    </div>
+</div>
+<div>
+    <div id="user-details">
+        <h2><strong> Name Here</strong></h2>
+        <p>
+            <strong>Designation Here</strong> <br>
+            <strong> iTrust Finance Limited</strong>
+        </p>
+    </div>
+    <div id="contants">
+        <a href="http://"><img src="phone.png" alt=""> Contacts</a>
+        <a href="http://"><img src="web.png" alt=""> Website</a>
+        <a href="http://"><img src="mail.png" alt=""> email</a>
+        <a href="http://"><img src="loc.png" alt=""> Address</a>
+
+    </div>
+</div>
+
+</section>
+
+<section class="notice">
+    <p>
+        <strong>IMPORTANT:</strong> This message is confidential. It may also be privileged or otherwise protected by work product immunity or other legal rules. If you have received it by mistake, please let us know by e-mail reply and delete it from your system; you may not copy this message or disclose its contents to anyone. The integrity and security of this message cannot be guaranteed on the Internet.
+    </p>
+</section>
+</body>
+</html>
