@@ -10,6 +10,7 @@
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    
 }
 
 a {
@@ -22,26 +23,30 @@ a:hover {
 }
     hr.vertical-line {
         width: 5px; /* Adjust the width of the line */
-        height: 200px; /* Adjust the height of the line */
+        height: 150px; /* Adjust the height of the line */
         border: none;
         background-color: black; /* Adjust the color of the line */
     }
 
 
     table {
-    width: 100%;
+    width: 70%; /* Adjust the width of the table */
     table-layout: fixed;
     border-collapse: collapse;
+    margin: 0 auto; /* Center the table horizontally */
 }
+
+table td {
+    padding: 5px; /* Adjust the padding as needed */
+    text-align: justify; /* Center align text */
+    vertical-align: top; /* Align content to the top of the cell */
+}
+
 
 table tr {
     width: 30px; /* Adjust the height as needed */
 }
 
-table th, table td {
-    padding: 10px; /* Adjust padding as needed */
-    text-align: justify; /* Center align text */
-}
 
 #user-details {
     margin-bottom: 10px; /* Adjust margin as needed */
@@ -63,25 +68,29 @@ table th, table td {
     display: block;
     margin-bottom: 5px; /* Adjust margin as needed */
     text-decoration: none; /* Remove underline from links */
+    color: black
 }
 
 #contants a img {
     vertical-align: middle; /* Align image vertically within link */
     margin-right: 5px; /* Adjust margin as needed */
+    width: 20px;
 }
 #social-icons {
     text-align: center; /* Align icons to the center */
 }
 
 #social-icons a {
-    display: inline-block; /* Display links inline with block layout */
-    margin: 0 10px; /* Add margin for spacing between icons */
+    display: inline; /* Display links inline with block layout */
+     /*margin: 0 10px; Add margin for spacing between icons */
     text-decoration: none; /* Remove underline from links */
 }
 
 #social-icons a img {
-    vertical-align: middle; /* Align images vertically within links */
+    display: inline;
+    width: 20px;
 }
+
 
     </style>
 </head>
@@ -90,7 +99,7 @@ table th, table td {
         <tr>
             <td>
                 <div id="gif">
-                    <img src="itrustbackside.gif" alt="itrust">
+                    <img src="itrustbackside.gif" alt="itrust" width="200px">
                 </div>
                 <div id="social-icons">
                     <a href="http://"><img src="fb.png" alt=""></a>
@@ -105,19 +114,19 @@ table th, table td {
             <td>
                 <hr class="vertical-line">
             </td>
-            <td>
+            <td rowspan=" 2">
                 <div id="user-details">
-                    <h2><strong> Name Here</strong></h2>
+                    <h2><strong> NARMAN MASOUD</strong></h2>
                     <p>
-                        <strong>Designation Here</strong> <br>
+                        <strong>Marketing Associate</strong> <br>
                         <strong> iTrust Finance Limited</strong>
                     </p>
                 </div>
                 <div id="contants">
-                    <a href="http://"><img src="phone.png" alt=""> Contacts</a>
-                    <a href="http://"><img src="web.png" alt=""> Website</a>
-                    <a href="http://"><img src="mail.png" alt=""> email</a>
-                    <a href="http://"><img src="loc.png" alt=""> Address</a>
+                    <a href="http://"><img src="phone.png" alt=""> +255 753 994 157</a>
+                    <a href="http://"><img src="web.png" alt=""> www.itrust.co.tz</a>
+                    <a href="http://"><img src="mail.png" alt=""> narman.masoud@itrust.co.tz</a>
+                    <a href="http://"><img src="loc.png" alt=""> 429 Mahando Street, Block C, Masaki P.O.Box 22636</a>
             
                 </div>
             </td>
